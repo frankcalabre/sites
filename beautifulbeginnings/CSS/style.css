@@ -1,0 +1,94 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+
+span {
+	font-weight: bold;
+}
+
+.cnbutton {
+	margin: 0px 50px 0px 0px;
+	color: #fff;
+	background-color: coral;
+	text-decoration: none;
+	padding: .5em 1em;
+	display: inline-block;
+}
+body {
+    background: url(images/colorstrip.png), #eee;
+    background-repeat: repeat-x;
+    padding-top: none;
+}
+
+.section1 {
+    float: left;
+}
+.section1 a {
+	padding-left: 20px;
+}
+
+.section2 {
+    float: right;
+}
+
+.section3 {
+    text-align: center;
+    margin-top: 2em;
+}
+
+.section2 > * {
+    display: inline-block;
+    padding: .5em 1em;
+    border-left: 1px solid;
+}
+
+.noline {
+    border-left: none;
+}
+
+.section3 > * {
+    width: 25%;
+    float: left;
+}
+
+.clearfix:after {
+    display: block;
+    clear: both;
+    content: "";
+}
+nav li {
+    float: left;
+    margin: 0 1em;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul ul {
+    display: none;
+}
+
+.section1 p {
+    display: inline-block;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: auto;
+    background: #fff;
+    padding: 2em;
+    box-shadow: 1px 1px 3px rgba(0,0,0,.25);
+}
+
+.products {
+	float: left;
+	width: 25%;
+	padding: 1em;
+}
+.products img {
+	width: 70%;
+
+}
+.hero {
+	width: 75%;
+	margin: 15px 150px 15px 150px;
+}

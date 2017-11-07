@@ -1,0 +1,273 @@
+/* ==========================================================================
+   Global Overrides
+  ========================================================================== */
+
+* { margin:0; padding:0; box-sizing:border-box; }
+
+.clearfix:after {
+    display: block;
+    clear: both;
+    content: "";
+}
+
+/* ==========================================================================
+   Author's custom styles
+  ========================================================================== */
+
+/* 
+    SITE COLORS:
+
+    White - #ffffff
+    Light Grey -
+    Dark Grey -
+    Grey/Black(text color) -
+    Yellow -
+    Red -
+*/
+
+
+/* Global
+   ================================================================ */
+
+
+/* Layout
+   ================================================================ */
+.wrapper {
+	max-width: 1100px;
+	margin: 10px auto 0;
+	padding: 0px 25px;
+
+}
+
+.stripe {
+	border-bottom: 1px solid green;
+	margin-bottom: 10px;
+}
+
+/* Headings
+   ================================================================ */
+
+
+
+
+/* Text Styles
+   ================================================================ */
+
+
+
+/* Header
+   ================================================================ */
+header a {
+	text-decoration: none;
+	color: black;
+}
+header {
+	font-size: .89em;
+}
+.section1 {
+	display: inline-block;
+	float: left;
+	width: 55%;
+	padding: .5em 1em;
+}
+.section1 p {
+	float: left;
+	width: 35%;
+	margin-right: 20px;
+	padding: 10px;
+
+	
+}
+.section1 a {
+	float: left;
+}
+
+.section2 > * {
+    display: inline-block;
+    padding: .5em 1em;
+    border-right: 1px solid;
+    margin: 0;
+}
+.section2 {
+	float: right;
+}
+.section2 a:nth-last-child(3) {
+	border-right: none;
+}
+.section2 a {
+	padding: 16px;
+
+}
+.top1 {
+	border-bottom: 1px solid;
+	padding-bottom: 10px;
+	margin-bottom: 50px;
+}
+
+
+
+.left {
+	float: left;
+	width: 33%;
+}
+.middlelogo {
+	float: left;
+	width: 33%;
+}
+.search {
+	float: right;
+	width: 18%;
+
+}
+.searchbar {
+	padding: 8px;
+}
+.top2 {
+	border-bottom: 1px solid;
+	padding-bottom: 40px;
+}
+/*hidden header items */
+.carticon {
+	display: none;
+}
+
+.hamburger {
+	display: none;
+	float: left;
+	width: 5%;
+}
+
+
+
+
+/* Footer
+   ================================================================ */
+
+
+
+/* Navigation
+   ================================================================ */
+/*.navlist {
+	float: left;
+	margin: 0 1em;
+	font-size: .8em;
+	padding-top: 20px;
+
+}*/
+.navlist {
+	margin-top: 22px;
+}
+.navlist a {
+	text-decoration: none;
+	color: black;
+}
+.navlist li {
+	list-style: none;
+	
+}
+.headernav li {
+    float: left;
+    margin: 0 1em;
+}
+
+
+/* Buttons
+   ================================================================ */
+.livechatnow {
+	background-color: #fbebea;
+	border: 1px solid grey;
+	padding: 10px;
+}
+
+
+
+
+/*Responsive
+	================================================================ */
+
+@media only screen and (max-width: 1016px){
+	.wrapper {
+		font-size: .8em;
+	}
+}
+@media only screen and (max-width: 749px){
+	.headhide {
+		display: none;
+	}
+	.section1 p {
+		width: 100%;
+		font-size: 1.5em;
+		/*how do I increase font size and increase width?*/
+	}
+	.top1 {
+	border-bottom: none;
+	padding-bottom: 10px;
+	margin-bottom: 50px;
+}
+	.carticon {
+		float: left;
+		width: 33%;
+		display: inline-block;
+		border-right: none;
+	}
+	.hamburger {
+		float: right;
+		width: 33%;
+		display: inline-block;
+		line-height:45px;
+		padding:5px 15px 0px 15px;
+		color:#999;
+		border:0;
+		font-size:1.4em;
+		font-weight:bold;
+		cursor:pointer;
+		outline:none;
+		background-color: white;
+
+	}
+	.middlelogo {
+		float: none;
+		width: 100%;
+	}
+	.logo {
+		width: 100%;
+	}
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 995px) {
+    header > * {
+        font-size: .89em;
+    }
+}
+@media only screen and (max-width: 890px) {
+    header > * {
+        font-size: .8em;
+    }
+}
+
+
+
+
+/*@media only screen and (max-width: 630px) {
+	.header2 {
+		display: none;
+	}
+	.logo {
+		float: none;
+		display: inline-block;
+		margin: auto;
+}
+	.top1 {
+	border-bottom: none;
+	padding-bottom: 10px;
+	margin-bottom: 50px;
+}
+}*/
+
+
